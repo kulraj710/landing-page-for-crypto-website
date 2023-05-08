@@ -1,0 +1,86 @@
+/* section 2 : Hero */
+#section-2-hero{
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#jump-start-line-container{
+    margin-bottom : 1.3rem;
+}
+#jump-start-link{
+    color: var(--primary1);
+    font-size: 18px;
+    margin : 0 10px;
+}
+#jump-start-link:hover{
+    text-decoration: underline;
+}
+#bitcoin-blue-icon{
+    transform: translate(5px, 4px);
+}
+
+#hero-content{
+    width: 60%;
+    height: 100%;
+    /* background-color: rgb(120, 164, 164); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#hero-content div h1{
+    letter-spacing: 1px;
+    width: 60%;
+    min-width: 220px;
+    font-size: 60px;   
+}
+#hero-content div p{
+    font-size: 20px; 
+    width: 80%;  
+    margin-top: 1rem;
+}
+
+#email-input{
+    padding : 1.6rem;
+    width: 55%;
+    border: 1px solid var(--lightgrey);
+    border-radius: 4px;
+    margin: 2rem 0.5rem 1rem 0;
+}
+#email-input::placeholder{
+    font-size: 18px;
+    color : var(--grey);
+}
+
+#email-btn{
+    padding: 1.4rem 2.4rem;
+    margin-left : 0.5rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: var(--primary1);
+    color: var(--white-text);
+    cursor: pointer;
+}
+#email-btn:hover{
+    background-color: var(--primary-hover)
+}
+
+#hero-image{
+    width: 40%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+#hero-image div div img {
+    /* this will fit the image into div */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#hero-image div {
+    height: inherit;
+    display: flex;
+}

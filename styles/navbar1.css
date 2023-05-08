@@ -1,0 +1,57 @@
+/* section 1 : Navbar */
+#section-1-navbar{
+    border-bottom: 0.1px solid rgb(235, 232, 232);
+}
+#nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#logo{
+    cursor: pointer;
+    color: var(--primary1);
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+#nav-contents {
+    display: flex;
+    flex-grow: 0.2;
+    justify-content: space-between;
+    align-items: center; 
+}
+#nav-contents a {
+    padding : 1rem 0; /* responsible for giving height to the navabar */
+    border-bottom: 4px solid transparent;
+    margin-top: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--black-text);
+
+
+}
+#nav-contents a:hover {
+    border-color: var(--primary1);
+    transition: border-color 1s ease 0s;
+}
+
+.cta-btn{
+    background-color: var(--primary1);
+    font-size: 14px;
+    padding: 10px 12px;
+    margin : 1rem;
+    color: var(--white-text);
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.cta-btn:hover {
+    background-color: var(--primary-hover);
+    transition: background-color 0.25s ease 0s;
+}

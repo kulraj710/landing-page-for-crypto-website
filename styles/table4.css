@@ -1,0 +1,72 @@
+/* section 4 : table */
+
+#section-4-table{
+    margin: 8rem 0;
+}
+
+#table-container{
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#table{
+    width: 100%;
+    text-align: justify;
+    border-collapse: collapse;
+}
+#table thead th{
+    font-weight: 300;
+    font-size: 14px;
+}
+#table tbody tr td{
+    font-size: 18px;
+}
+/* styling for custom table border */
+#table thead th, #table tbody tr td{
+    padding : 1rem;
+    border-bottom: 1px solid var(--lightgrey);
+    border-top: 1px solid var(--lightgrey);    
+}
+
+#table thead th:first-child, #table tbody tr td:first-child{
+    border-left : 1px solid var(--lightgrey);
+}
+#table thead th:last-child, #table tbody tr td:last-child{
+    border-right : 1px solid var(--lightgrey);
+}
+
+#table thead th {
+    color: var(--grey);
+}
+
+.buy-btn{
+    padding : 8px 16px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: var(--white-text);
+    font-weight: 600;
+    background-color: var(--green);
+    cursor: pointer;
+}
+.buy-btn:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease 0s;
+}
+.table-icons-container img{
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.table-icons-container{
+ display: inline-block;
+}
+
+.red{
+    color : var(--red)
+}
+.green{
+    color: var(--green);
+}
