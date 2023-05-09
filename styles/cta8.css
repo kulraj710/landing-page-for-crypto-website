@@ -1,0 +1,44 @@
+#section-8-cta{
+    margin: 8rem 0 0 0;
+    background-color: var(--grey-background);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#cta-container h1{
+    font-size: 40px;
+    color: var(--black-text);
+    margin: 1rem;
+}
+
+#cta-container button{
+    color: var(--white-text);
+    background-color: var(--primary1);
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    padding : 1rem 4rem;
+    margin: 1.3rem;
+}
+
+
+/* styles for footer */
+#footer{
+    margin: 4rem;
+    text-align: center;
+}
+
+#footer div{
+    font-size: 18px;
+    padding: 2rem;
+}
+#footer div a:hover{
+    text-decoration: underline;
+}
+
+#footer > p{
+    font-size: 14px;
+}

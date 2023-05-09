@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="styles/table4.css">
     <link rel="stylesheet" href="styles/services5.css">
     <link rel="stylesheet" href="styles/testimonials6.css">
+    <link rel="stylesheet" href="styles/pricing7.css">
+    <link rel="stylesheet" href="styles/cta8.css">
 
     <!-- swiper js -->
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
@@ -38,16 +40,16 @@
                 </div>
 
                 <div id="nav-contents">
-                    <a>Services</a>
-                    <a>Product</a>
-                    <a>Pricing</a>
-                    <a>Testimonials</a>
+                    <a href="#section-4-table">Services</a>
+                    <a href="#section-5-services">Product</a>
+                    <a href="#section-7-pricing">Pricing</a>
+                    <a href="#section-6-testimonial">Testimonials</a>
                     <a>Contact Us</a>
                 </div>
 
                 <div>
                     <a>Sign In</a>
-                    <a class="cta-btn">Get Started</a>
+                    <a href="#section-8-cta" class="cta-btn">Get Started</a>
                 </div>
             </nav>
         </section>
@@ -211,7 +213,10 @@
 
         <!-- section 6 : testimonials -->
         <section id="section-6-testimonial">
-            <!-- ext -->
+            <h2 id="testimonial-heading">What our customers say</h2>
+            <div id="testimonial-container">
+
+        
             <div class="testimonial mySwiper">
                 <div class="testi-content swiper-wrapper">
                     <div class="slide swiper-slide">
@@ -261,7 +266,70 @@
                 <div class="swiper-button-prev nav-btn"></div>
                 <div class="swiper-pagination"></div>
             </div>
+            </div>
         </section>
+
+        <!-- section 7 : Pricing -->
+        <section id="section-7-pricing">
+            <h2 id="pricing-heading">Our pricing </h2>
+            <div id="pricing-container">
+                <!-- ext -->
+                <div class="pricing-background">
+                    <div class="container">
+                      <div class="panel pricing-table">
+                        
+                        <div class="pricing-plan">
+                          <img src="./assets/paper-plane.png" alt="paper plane" class="pricing-img">
+                          <h2 class="pricing-header">Personal</h2>
+                          <ul class="pricing-features">
+                            <li class="pricing-features-item">15 min daleyed</li>
+                            <li class="pricing-features-item">Lorem ipsum dolor sit amet.</li>
+                          </ul>
+                          <span class="pricing-price">Free</span>
+                          <a href="#/" class="pricing-button">Sign up</a>
+                        </div>
+                        
+                        <div class="pricing-plan">
+                          <img src="./assets/plane.png" alt="plane" class="pricing-img">
+                          <h2 class="pricing-header">Small team</h2>
+                          <ul class="pricing-features">
+                            <li class="pricing-features-item">Real Time</li>
+                            <li class="pricing-features-item">Powerful and reliable api, Lorem, ipsum dolor.</li>
+                          </ul>
+                          <span class="pricing-price">&#x20b9; 1500</span>
+                          <a href="#/" class="pricing-button is-featured">Free trial</a>
+                        </div>
+                        
+                        <div class="pricing-plan">
+                          <img src="./assets/space-ship.png" alt="space ship" class="pricing-img">
+                          <h2 class="pricing-header">Enterprise</h2>
+                          <ul class="pricing-features">
+                            <li class="pricing-features-item">Dedicated</li>
+                            <li class="pricing-features-item">Lorem ipsum dolor sit amet, Lorem, ipsum.</li>
+                          </ul>
+                          <span class="pricing-price">&#x20b9; 4000</span>
+                          <a href="#/" class="pricing-button">Free trial</a>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <!-- section 8 : CTA -->
+        <section id="section-8-cta">
+            <div id="cta-container">
+                <h1>Start earing today</h1>
+                <button>Sign up now</button>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer id="footer">
+            <div><a href="https://github.com/kulraj710/landing-page-for-crypto-website">Click here for source code</a></div>
+            <p>&copy; 2023 Kulraj Chavda</p>
+        </footer>
     </div>
 </body>
 
