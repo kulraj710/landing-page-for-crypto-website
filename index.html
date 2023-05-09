@@ -16,13 +16,15 @@
     <link rel="stylesheet" href="styles/testimonials6.css">
     <link rel="stylesheet" href="styles/pricing7.css">
     <link rel="stylesheet" href="styles/cta8.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 
     <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
+
+    <!-- boxicons (only one icon used delete it later to increases FCP) -->
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
     <script src="./index.js" defer></script>
 
     <title>Welcome</title>
@@ -48,8 +50,11 @@
                 </div>
 
                 <div>
-                    <a>Sign In</a>
-                    <a href="#section-8-cta" class="cta-btn">Get Started</a>
+                    <a class="hide-navbar">Sign In</a>
+                    <a href="#section-8-cta" class="cta-btn hide-navbar">Get Started</a>
+                </div>
+                <div class="menu">
+                    <i style="font-size: 28px; cursor: pointer;" class='bx bx-menu'></i>
                 </div>
             </nav>
         </section>
@@ -112,8 +117,8 @@
                         <tr>
                             <th>#</th>
                             <th>Name</th>
-                            <th>Price</th>
-                            <th>Change</th>
+                            <th class="price">Price</th>
+                            <th class="change">Change</th>
                             <th>Trade</th>
                         </tr>
                         <thead>
@@ -124,8 +129,8 @@
                                     <div class="table-icons-container"><img src="./assets/bitcoin.png" alt="bitcoin">
                                         Bitcoin <span>BTC</span></div>
                                 </td>
-                                <td>&#x20B9; 2,238,294.98</td>
-                                <td class="red">-5.76%</td>
+                                <td class="price">&#x20B9; 2,238,294.98</td>
+                                <td class="red change">-5.76%</td>
                                 <td><button class="buy-btn">Buy</button></td>
                             </tr>
                             <tr>
@@ -134,8 +139,8 @@
                                     <div class="table-icons-container"><img src="./assets/etherium.png"
                                             class="table-icons" alt="ehterium"> Etherium <span>ETH</span></div>
                                 </td>
-                                <td>&#x20B9; 149,670.21</td>
-                                <td class="red">-4.33%</td>
+                                <td class="price">&#x20B9; 149,670.21</td>
+                                <td class="red change">-4.33%</td>
                                 <td><button class="buy-btn">Buy</button></td>
                             </tr>
                             <tr>
@@ -144,8 +149,8 @@
                                     <div class="table-icons-container"><img src="./assets/cardano.png"
                                             class="table-icons" alt="cardano"> Cardano <span>ADA</span></div>
                                 </td>
-                                <td>&#x20B9; 29.34</td>
-                                <td class="green">+5.45%</td>
+                                <td class="price">&#x20B9; 29.34</td>
+                                <td class="green change">+5.45%</td>
                                 <td><button class="buy-btn">Buy</button></td>
                             </tr>
                             <tr>
@@ -154,8 +159,8 @@
                                     <div class="table-icons-container"><img src="./assets/solana.png"
                                             class="table-icons" alt="solana"> Solana <span>SOL</span></div>
                                 </td>
-                                <td>&#x20B9; 1,679.00</td>
-                                <td class="red">-9.56%</td>
+                                <td class="price">&#x20B9; 1,679.00</td>
+                                <td class="red change">-9.56%</td>
                                 <td><button class="buy-btn">Buy</button></td>
                             </tr>
                         </tbody>
@@ -273,7 +278,6 @@
         <section id="section-7-pricing">
             <h2 id="pricing-heading">Our pricing </h2>
             <div id="pricing-container">
-                <!-- ext -->
                 <div class="pricing-background">
                     <div class="container">
                       <div class="panel pricing-table">
