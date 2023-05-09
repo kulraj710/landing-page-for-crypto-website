@@ -27,13 +27,15 @@ a {
 
 /* variables */
 :root {
+    --primary1 : #0052FF;
+    --primary-hover : rgb(10, 70, 228);
+    --grey-background : #F7F7F7;
+    --secondary-background : #e3f2fd;
+    --secondary1 : #FAFAFA;
     --black-text : rgb(5, 15, 25);
     --white-text : #ffffff;
     --lightgrey : #DEDFE2;
     --grey : #75759D;
-    --primary1 : #0052FF;
-    --primary-hover : rgb(10, 70, 228);
-    --secondary1 : #FAFAFA;
     --green: #098551;
     --red : #CF202F;
   }

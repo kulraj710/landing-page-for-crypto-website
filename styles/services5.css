@@ -1,0 +1,72 @@
+/* section 5 : Services */
+#section-5-services{
+    background-color: var(--grey-background);
+    padding: 3rem 0;
+}
+
+#services-container{
+    /* background-color: green; */
+    width: 70%;
+    margin: 0 auto;
+}
+
+#services-container > div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+}
+/* set the widhth for svgs */
+#services-one img, #services-two img, #services-three img{
+    width: 300px;
+}
+
+#services-container > div > div > h3{
+    font-size: 28px;
+    margin: 0.5rem 0 2.5rem 0;
+    /* position: relative; */
+}
+
+/* #services-container > div > div > h3::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px; 
+  height: 5px;
+  background-color: var(--primary1);
+} 
+*/
+
+#services-container > div > div > p{
+    max-width: 500px;
+    font-size: 18px;
+    color: grey;
+    /* background-color: aquamarine; */
+}
+
+#section-5-title{
+    font-size: 35px;
+    text-align: center;
+    margin: 1rem;
+}
+#section-5-supporttext{
+    color: grey;
+    text-align: center;
+    margin: 1rem 1rem 8rem 1rem;
+}
+.section-5-getstarted{
+    /* background-color: gray; */
+    font-size: 18px;
+    margin : 3rem 0;
+    color: var(--primary1) !important;    
+    font-weight: bold;
+}
+.section-5-getstarted > a > img{
+    height: 18px;
+    width: 40px !important;
+    transform: translate(5px, 3px);
+    
+}
+
+
+

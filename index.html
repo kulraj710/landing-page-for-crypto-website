@@ -12,6 +12,16 @@
     <link rel="stylesheet" href="styles/hero2.css">
     <link rel="stylesheet" href="styles/banner3.css">
     <link rel="stylesheet" href="styles/table4.css">
+    <link rel="stylesheet" href="styles/services5.css">
+    <link rel="stylesheet" href="styles/testimonials6.css">
+
+    <!-- swiper js -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
+    <script src="./index.js" defer></script>
 
     <title>Welcome</title>
 </head>
@@ -153,7 +163,104 @@
 
         <!-- section 5 : services -->
         <section id="section-5-services">
+            <h1 id="section-5-title">Your trusted crypto exchange</h1>
+            <p id="section-5-supporttext">we are committed to user protection with strict protocols and industry-leading
+                technical measures.</p>
+            <div id="services-container">
+                <div id="services-one">
+                    <div>
+                        <h3>Manage your portfolio</h3>
+                        <p>Buy and sell popular digital currencies, keep track of them in the one place. Lorem ipsum
+                            dolor sit amet consectetur, adipisicing elit. Totam nam, ab vel tenetur ipsa fuga.
+                        </p>
 
+                        <div class="section-5-getstarted"><a>Get started <img src="assets/right-arrow-icon.svg"
+                                    alt="right arrow"></a></div>
+                    </div>
+                    <div><img src="./assets/portfolio-undraw.svg" alt="Portfolio graphic"></div>
+                </div>
+
+                <div id="services-two">
+                    <div><img src="./assets/vault-undraw.svg" alt="Vault protection graphic"></div>
+
+                    <div>
+                        <h3>Vault protection</h3>
+                        <p>
+                            For added security, store your funds in a vault with time delayed withdrawals. Lorem, ipsum
+                            dolor sit amet consectetur adipisicing.
+                        </p>
+                        <div class="section-5-getstarted"><a>Get started <img src="assets/right-arrow-icon.svg"
+                                    alt="right arrow"></a></div>
+                    </div>
+                </div>
+                <div id="services-three">
+                    <div>
+                        <h3>Advanced Data Encryption</h3>
+                        <p>
+                            Your transaction data is secured via end-to-end encryption, ensuring that only you have
+                            access to your personal information. Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                        <div class="section-5-getstarted"><a>Get started <img src="assets/right-arrow-icon.svg"
+                                    alt="right arrow"></a></div>
+                    </div>
+
+                    <div><img src="./assets/protection-undraw.svg" alt="encryption graphic"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 6 : testimonials -->
+        <section id="section-6-testimonial">
+            <!-- ext -->
+            <div class="testimonial mySwiper">
+                <div class="testi-content swiper-wrapper">
+                    <div class="slide swiper-slide">
+                        <img src="./assets/testimonial/img1.jpg" alt="person" class="image" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                            saepe provident dolorem a quaerat quo error facere nihil deleniti
+                            eligendi ipsum adipisci, fugit, architecto amet asperiores
+                            doloremque deserunt eum nemo.
+                        </p>
+                        <i class="bx bxs-quote-alt-left quote-icon"></i>
+                        <div class="details">
+                            <span class="name">Hazel grace</span>
+                            <span class="job">NFT enthusiast</span>
+                        </div>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <img src="./assets/testimonial/img2.jpg" alt="person" class="image" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                            saepe provident dolorem a quaerat quo error facere nihil deleniti
+                            eligendi ipsum adipisci, fugit, architecto amet asperiores
+                            doloremque deserunt eum nemo.
+                        </p>
+                        <i class="bx bxs-quote-alt-left quote-icon"></i>
+                        <div class="details">
+                            <span class="name">Sam Altman</span>
+                            <span class="job">Crypto Investor</span>
+                        </div>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <img src="./assets/testimonial/img3.jpg" alt="person" class="image" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                            saepe provident dolorem a quaerat quo error facere nihil deleniti
+                            eligendi ipsum adipisci, fugit, architecto amet asperiores
+                            doloremque deserunt eum nemo.
+                        </p>
+                        <i class="bx bxs-quote-alt-left quote-icon"></i>
+                        <div class="details">
+                            <span class="name">Fallon Carrington</span>
+                            <span class="job">CEO, abc.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next nav-btn"></div>
+                <div class="swiper-button-prev nav-btn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
         </section>
     </div>
 </body>

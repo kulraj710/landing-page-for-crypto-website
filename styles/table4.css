@@ -60,6 +60,10 @@
     vertical-align: middle;
     margin-right: 12px;
 }
+
+.table-icons-container span{
+    color: var(--grey);
+}
 .table-icons-container{
  display: inline-block;
 }
